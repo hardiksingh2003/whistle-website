@@ -1,0 +1,222 @@
+.dream-section {
+  background: #F0F9FF;
+  padding: 80px 40px;
+}
+
+.dream-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.dream-left {
+  flex: 1;
+  max-width: 480px;
+}
+
+.dream-headline {
+  font-family: 'Inter', sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1a1a2e;
+  line-height: 1.25;
+  margin-bottom: 24px;
+  border-left: none;
+  padding-left: 0;
+}
+
+.dream-desc {
+  font-size: 14px;
+  color: #1a1a2e;
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 28px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+  min-width: 360px;
+  max-width: 400px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+}
+
+.product-card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.product-info {
+  flex: 1;
+}
+
+.product-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 8px;
+}
+
+.product-original-price {
+  font-size: 13px;
+  color: #999;
+  text-decoration: line-through;
+  margin-bottom: 4px;
+}
+
+.product-sale-line {
+  font-size: 13px;
+  color: #555;
+}
+
+.product-sale-price {
+  font-size: 28px;
+  font-weight: 800;
+  color: #8f62d4;
+}
+
+.product-price-note {
+  font-size: 11px;
+  color: #999;
+  margin-top: 2px;
+}
+
+.product-image {
+  width: 110px;
+  height: 90px;
+  border-radius: 12px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-features {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding-top: 16px;
+}
+
+.product-feature {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  color: #555;
+}
+
+.feature-check {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.learn-more-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #8f62d4;
+  float: right;
+  transition: gap 0.2s ease;
+}
+
+.learn-more-link:hover {
+  gap: 10px;
+}
+
+.arrow {
+  font-size: 18px;
+  transition: transform 0.2s ease;
+}
+
+.learn-more-link:hover .arrow {
+  transform: translateX(4px);
+}
+
+.product-pricing-note-mobile {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .dream-inner {
+    gap: 32px;
+  }
+
+  .product-card {
+    min-width: 320px;
+  }
+}
+
+@media (max-width: 768px) {
+  .dream-section {
+    padding: 48px 20px;
+  }
+
+  .dream-inner {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .dream-left {
+    max-width: 100%;
+  }
+
+  .dream-headline {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .dream-desc-pricing {
+    display: none;
+  }
+
+  .product-card {
+    min-width: unset;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .product-pricing-note-mobile {
+    display: block;
+    clear: both;
+    padding-top: 16px;
+    font-size: 13px;
+    color: #1a1a2e;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 480px) {
+  .dream-section {
+    padding: 36px 16px;
+  }
+
+  .dream-headline {
+    font-size: 22px;
+    padding-left: 0;
+  }
+
+  .dream-desc {
+    font-size: 13px;
+  }
+}
