@@ -1,0 +1,118 @@
+{
+  "hero": {
+    "headline": "Invisible Aligners for a dream smile",
+    "subtext": "Book a Scan and avail a free Orthodontist Consult",
+    "offerHighlight": "worth ₹1500",
+    "announcementBar": {
+      "originalPrice": "Rs 69,999",
+      "salePrice": "Rs 47,999",
+      "message": "Hurry! Offer ends soon."
+    },
+    "bookingQuestion": "Do you have Teeth Gaps or Crooked Teeth?",
+    "formPlaceholders": {
+      "name": "Ajay Kumar",
+      "phone": "+91  Mobile number*"
+    },
+    "ctaButton": "Book a Free Scan",
+    "consent": "I hereby consent to receive calls / messages from Whistle and its partners and override DND settings."
+  },
+  "clinicBanner": {
+    "title": "Book a Free 3D Teeth Scan and Orthodontist Consult in a Clove Dental Clinic near you.",
+    "ctaText": "Find Clinic",
+    "partnerName": "clove:)",
+    "partnerTagline": "DENTAL"
+  },
+  "marquee": [
+    "Our inaugural launch benefit",
+    "Free teeth scan worth ₹500",
+    "Free orthodontic consultation worth ₹1500"
+  ],
+  "whyWhistle": [
+    {
+      "id": 1,
+      "title": "Custom-made & invisible",
+      "description": "Tailored for your teeth and smile with a clear, discreet appearance.",
+      "image": "/src/assets/why-custom.png"
+    },
+    {
+      "id": 2,
+      "title": "Predictable results",
+      "description": "Advanced 3D modeling and AI-technology for precise planning and predictable results.",
+      "image": "/src/assets/why-predictable.png"
+    },
+    {
+      "id": 3,
+      "title": "Partnership with Clove Dental",
+      "description": "Led by highly experienced Orthodontists of Clove Dental and Whistle that have corrected over 2 lakh smiles.",
+      "image": "/src/assets/why-partnership.png"
+    },
+    {
+      "id": 4,
+      "title": "Unlimited Aligners*",
+      "description": "Unlimited aligners and doctor consults at no extra cost.",
+      "image": "/src/assets/why-unlimited.png"
+    }
+  ],
+  "results": [
+    {
+      "id": 1,
+      "beforeImage": "/src/assets/result-before1.png",
+      "afterImage": "/src/assets/result-after1.png",
+      "concern": "Gaps",
+      "duration": "8 months"
+    },
+    {
+      "id": 2,
+      "beforeImage": "/src/assets/result-before2.png",
+      "afterImage": "/src/assets/result-after2.png",
+      "concern": "Crooked Teeth",
+      "duration": "8 months"
+    },
+    {
+      "id": 3,
+      "beforeImage": "/src/assets/result-before3.png",
+      "afterImage": "/src/assets/result-after3.png",
+      "concern": "Open Bite",
+      "duration": "8 months"
+    },
+    {
+      "id": 4,
+      "beforeImage": "/src/assets/result-before4.png",
+      "afterImage": "/src/assets/result-after4.png",
+      "concern": "Protruding Teeth",
+      "duration": "8 months"
+    }
+  ],
+  "dreamSmiles": {
+    "headline": "Dream smiles achieved secretly",
+    "description1": "Experience the superior quality of our Whistle Aligners crafted with 3-layer PU material. With 450+ clinics nationwide, enjoy comfortable treatment by expert orthodontists at House of Clove.",
+    "description2": "The pricing is different for every case. Cases with higher complexity requiring more aligners and additional time and effort from our dentists.",
+    "product": {
+      "name": "Whistle Aligners",
+      "originalPrice": "₹84,000",
+      "salePrice": "₹47,999",
+      "priceNote": "inc. of all taxes",
+      "features": [
+        "Offer valid for a limited time",
+        "Easy financing options"
+      ]
+    }
+  },
+  "whistleDifference": [
+    {
+      "id": 1,
+      "title": "Next-Gen",
+      "description": "Crafted with top-notch 3D printing, laser tech, and Zendura FLX material."
+    },
+    {
+      "id": 2,
+      "title": "Hassle-Free",
+      "description": "Predictable, comfortable & lifestyle-friendly for an easy smile transformation."
+    },
+    {
+      "id": 3,
+      "title": "Transparent Pricing",
+      "description": "Everything's included – from scans to aligners, doctor consults, and retainers – no hidden costs."
+    }
+  ]
+}
