@@ -1,0 +1,147 @@
+css
+.difference-section {
+  background: #eef4fb;
+  padding: 80px 40px;
+}
+
+.difference-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.04);
+}
+
+.difference-left {
+  flex: 1;
+  padding: 48px 40px;
+}
+
+.difference-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  color: #1a1a2e;
+  margin-bottom: 36px;
+}
+
+.difference-features {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.difference-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.difference-icon {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+}
+
+.difference-icon-img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.difference-text {
+  flex: 1;
+}
+
+.difference-item-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 4px;
+}
+
+.difference-item-desc {
+  font-size: 13px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.difference-right {
+  flex-shrink: 0;
+  width: 380px;
+}
+
+.difference-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+  .difference-right {
+    width: 300px;
+  }
+
+  .difference-left {
+    padding: 36px 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  .difference-section {
+    padding: 48px 20px;
+  }
+
+  .difference-inner {
+    flex-direction: column;
+  }
+
+  .difference-left {
+    padding: 32px 24px;
+  }
+
+  .difference-title {
+    font-size: 24px;
+    margin-bottom: 28px;
+  }
+
+  .difference-right {
+    width: 100%;
+    height: 260px;
+  }
+
+  .difference-item-desc {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .difference-section {
+    padding: 36px 16px;
+  }
+
+  .difference-left {
+    padding: 24px 20px;
+  }
+
+  .difference-title {
+    font-size: 22px;
+    margin-bottom: 24px;
+  }
+
+  .difference-features {
+    gap: 20px;
+  }
+
+  .difference-right {
+    height: 220px;
+  }
+}
