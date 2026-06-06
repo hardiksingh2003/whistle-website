@@ -32,53 +32,53 @@
       "id": 1,
       "title": "Custom-made & invisible",
       "description": "Tailored for your teeth and smile with a clear, discreet appearance.",
-      "image": "https://picsum.photos/seed/custom/400/300"
+      "image": "/images/why-custom.png"
     },
     {
       "id": 2,
       "title": "Predictable results",
       "description": "Advanced 3D modeling and AI-technology for precise planning and predictable results.",
-      "image": "https://picsum.photos/seed/predict/400/300"
+      "image": "/images/why-predictable.png"
     },
     {
       "id": 3,
       "title": "Partnership with Clove Dental",
       "description": "Led by highly experienced Orthodontists of Clove Dental and Whistle that have corrected over 2 lakh smiles.",
-      "image": "https://picsum.photos/seed/partner/400/300"
+      "image": "/images/why-partnership.png"
     },
     {
       "id": 4,
       "title": "Unlimited Aligners*",
       "description": "Unlimited aligners and doctor consults at no extra cost.",
-      "image": "https://picsum.photos/seed/unlimited/400/300"
+      "image": "/images/why-unlimited.png"
     }
   ],
   "results": [
     {
       "id": 1,
-      "beforeImage": "https://picsum.photos/seed/before1/300/250",
-      "afterImage": "https://picsum.photos/seed/after1/300/250",
+      "beforeImage": "/images/result-before1.png",
+      "afterImage": "/images/result-after1.png",
       "concern": "Gaps",
       "duration": "8 months"
     },
     {
       "id": 2,
-      "beforeImage": "https://picsum.photos/seed/before2/300/250",
-      "afterImage": "https://picsum.photos/seed/after2/300/250",
+      "beforeImage": "/images/result-before2.png",
+      "afterImage": "/images/result-after2.png",
       "concern": "Crooked Teeth",
       "duration": "8 months"
     },
     {
       "id": 3,
-      "beforeImage": "https://picsum.photos/seed/before3/300/250",
-      "afterImage": "https://picsum.photos/seed/after3/300/250",
+      "beforeImage": "/images/result-before3.png",
+      "afterImage": "/images/result-after3.png",
       "concern": "Open Bite",
       "duration": "8 months"
     },
     {
       "id": 4,
-      "beforeImage": "https://picsum.photos/seed/before4/300/250",
-      "afterImage": "https://picsum.photos/seed/after4/300/250",
+      "beforeImage": "/images/result-before4.png",
+      "afterImage": "/images/result-after4.png",
       "concern": "Protruding Teeth",
       "duration": "8 months"
     }
