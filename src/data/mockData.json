@@ -56,7 +56,7 @@
   "results": [
     {
       "id": 1,
-      "beforeImage": "/src/assets/result-before1.png",
+      "beforeImage": "/images/result-before1.png",
       "afterImage": "/src/assets/result-after1.png",
       "concern": "Gaps",
       "duration": "8 months"
